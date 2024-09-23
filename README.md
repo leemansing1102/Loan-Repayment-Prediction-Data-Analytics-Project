@@ -32,14 +32,14 @@ Outliers in the social circle data need to be examined to understand whether soc
 Gender and employment duration are key factors influencing loan repayment. Most applicants had employment durations of fewer than 5 years and were between 28 to 50 years old. Recommendations include tailoring loan products to suit applicants' life stages and considering employment history more heavily in loan approval criteria.<br/>
 
 **Category 4: Feature Importance in Predictive Models**<br/>
-In the classification models used (e.g., Random Forest, Logistic Regression), features such as AMT_CREDIT, AMT_ANNUITY, and EXT_SOURCE_3 were highly predictive of repayment difficulties. Using these insights, banks can enhance their predictive models to pre-emptively identify high-risk clients.<br/>
+In the classification models used (e.g., **Random Forest, Logistic Regression**), features such as AMT_CREDIT, AMT_ANNUITY, and EXT_SOURCE_3 were highly predictive of repayment difficulties. Using these insights, banks can enhance their predictive models to pre-emptively identify high-risk clients.<br/>
 
 ## KNIME Workflow
-• The data cleaning, preprocessing, and modeling stages were all carried out using KNIME workflows. The workflows used for this project are accessible here: [KNIME Link].<br/>
-• Targeted SQL queries and classification models used in this project, including Decision Trees, Random Forests, and Logistic Regression, are available here: [Query & Model Link].<br/>
+• The **data cleaning, preprocessing, and modeling** stages were all carried out using KNIME workflows. The workflows used for this project are accessible here: [KNIME Link].<br/>
+• **Classification model** used in this project, including Decision Trees, Random Forests, and Logistic Regression, are available here: [Query & Model Link].<br/>
 
 ## Recommendations:
-• Income Gap Analysis: Given the wide variation in income, focus should be placed on analyzing how income levels correlate with default rates. This could lead to dynamic risk-based interest rates.<br/>
-• Social Environment Influence: Investigate the social dynamics of high-risk applicants. More research into the social circle data could lead to innovative risk mitigation strategies.<br/>
-• Tailored Financial Products: Loan products could be better aligned with demographic factors like age, gender, and family status to reduce the likelihood of defaults.<br/>
-• Improved Predictive Models: Utilizing the most important features such as AMT_INCOME_TOTAL and DAYS_EMPLOYED in machine learning models can enhance risk prediction, leading to more informed lending decisions.<br/>
+• **Income Gap Analysis**: Given the wide variation in income, focus should be placed on analyzing how income levels correlate with default rates. This could lead to dynamic risk-based interest rates.<br/>
+• **Social Environment Influence**: Investigate the social dynamics of high-risk applicants. More research into the social circle data could lead to innovative risk mitigation strategies.<br/>
+• **Tailored Financial Products**: Loan products could be better aligned with demographic factors like age, gender, and family status to reduce the likelihood of defaults.<br/>
+• **Improved Predictive Models**: Utilizing the most important features such as AMT_INCOME_TOTAL and DAYS_EMPLOYED in machine learning models can enhance risk prediction, leading to more informed lending decisions.<br/>
